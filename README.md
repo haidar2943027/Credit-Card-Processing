@@ -5,6 +5,7 @@ Below you will find some information on how to perform common tasks.<br>
 ## Table of Contents
 - [Folder Structure](#folder-structure)
 - [Available Scripts](#available-scripts)
+  - [npm install](#npm-install) 
   - [npm start](#npm-start)
   - [npm test](#npm-test)
   - [npm run build](#npm-run-build)
