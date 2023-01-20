@@ -43,7 +43,7 @@ class App extends Component {
             axios.post(this.apiUrl+'add_card', data)
                 .then(data => {
                     this.setState({response: data.data})
-                    this.showMessage(data.data.message, e)
+                    setTimeout(this.showMessage(data.data.message, e), 100);
                 })
                 .catch(error => console.log(error)) 
         } catch (error) {
